@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/*
+    这是首页的样式
+ */
+.col-xs-1 {
+  width: percenttage(0.08333);
+}
+
+.col-xs-2 {
+  width: percenttage(0.16667);
+}
+
+.col-xs-3 {
+  width: percenttage(0.25);
+}
+
+.col-xs-4 {
+  width: percenttage(0.33333);
+}
+
+.col-xs-5 {
+  width: percenttage(0.41667);
+}
+
+.col-xs-6 {
+  width: percenttage(0.5);
+}
+
+.col-xs-7 {
+  width: percenttage(0.58333);
+}
+
+.col-xs-8 {
+  width: percenttage(0.66667);
+}
+
+.col-xs-9 {
+  width: percenttage(0.75);
+}
+
+.col-xs-10 {
+  width: percenttage(0.83333);
+}
+
+.col-xs-11 {
+  width: percenttage(0.91667);
+}
+
+.col-xs-12 {
+  width: percenttage(1);
+}
+
+.nav {
+  width: 1000px;
+  height: 100px;
+  padding: 50px 100px 10px 15px;
+  line-height: 40px;
+  background-color: red;
+  color: green;
+}
+
+.nav ul {
+  width: 2400px;
+  padding-top: 10px;
+  padding-bottom: 2em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+  padding: 5px 15px;
+  padding-top: 10px;
+  position: relative;
+  color: #666;
+}
+
+.nav li a {
+  display: inline-block;
+  color: #fff;
+}
+
+.nav li a.home {
+  background-color: orange;
+}
+
+.nav li ul {
+  position: absolute;
+  padding: 5px 20px;
+  color: #ccc;
+}
+
+.nav li ul a:hover {
+  color: #5b8c58;
+}
+
+.nav li:last-child {
+  float: right;
+}
