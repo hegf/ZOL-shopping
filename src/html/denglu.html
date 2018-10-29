@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">        
+    <title>登录- Z商城</title>
+    <meta name="keywords" content="登录- Z商城">
+    <meta name="description" content="登录- Z商城">
+    <link href="../css/denglu.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../lip/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../js/denglu.js"></script>
+</head>
+<body class="login-index">
+    <div class="wrapper">
+        <!-- logo行 -->
+        <div class="header clearfix">
+            <div class="register-bar"><a href="zhuce.html">立即注册</a>还没有Z商城账号?</div>
+            <div class="logo"> 
+                    <a title="Z商城" href="./denglu.html"><img width="130" height="60" title="Z商城" alt="Z商城" src="./../images/logo_130x60.png"><p>中关村在线旗下网上商城</p></a>
+            </div>
+        </div>
+    </div>   
+        <!-- 登录输入框 -->
+        <form id="J_loginForm" action="javascript:void(0)"> 
+        <div class="login-wrap clearfix"> 
+            <div class="ad-div"> 
+                <a href="http://www.zol.com/" target="_blank"><img width="520" height="350" src="./登录- Z商城_files/ad2_1.jpg" alt=""></a> 
+            </div> 
+            <div class="login-layer"> 
+                <div class="login-head clearfix"> 
+                    <h3 class="curLogin">登录Z商城</h3> 
+                    <!-- 登录Z商城 -->
+                </div>
+                <div class="login-select">
+                    <div class="login-content" id="J_login_common"> 
+                        <div class="login-wrong-tips" id="J_login-wrong-tips" style="display:none;">
+                        </div> 
+                        <div class="form-item username"> 
+                            <input type="text" value="" autocomplete="off" placeholder="手机号/邮箱/用户名" class="text" id="J_loginUser" name="zolShopUserName" maxlength="100"> 
+                            <i class="remove" style="display:none;"></i> 
+                            <ul style="display:none;" class="account-list" id="J_accountList"> 
+                            </ul> 
+                        </div> 
+                        <div class="form-item"> 
+                            <input type="password" autocomplete="off" placeholder="密码" class="text" id="J_loginPsw" maxlength="20"> 
+                            <i class="remove" style="display:none;"></i> 
+                            <span class="case-tips" id="J_loginCapsLock">大小写锁定已打开<i class="ico"></i></span> 
+                        </div> 
+                        <div class="form-other clearfix"> 
+                            <label class="autologon"></label> 
+                            <a href="javascript:void(0)" class="otherLogin-bar mobileLogin-bar" rel="J_phone">手机动态码登录</a> 
+                            <a target="_blank" href="http://my.zol.com.cn/index.php?c=getPassword" class="forget-password">忘记密码？</a>
+                        </div> 
+                            <input type="hidden" value="1" name="J_login_type" id="J_login_type"> 
+                            <input type="button" value="登 录" class="login-layer-btn" id="J_loginBtn"> 
+                            <span style="display:none;" class="submit-loading" id="J_loginingBtn">正在登录...</span> 
+                        </div> 
+                        <div class="login-content mobileLogin-content" id="J_login_mobile" style="display:none;"> 
+                        <div class="login-wrong-tips" id="J_login-mobile-wrong-tips" style="display:none;">
+                        </div> 
+                            
+                        <div class="form-item "> 
+                            <input type="text" autocomplete="off" placeholder="手机号" class="text" id="J_login_mobile_number" name="J_login_mobile_number"> 
+                        </div>                           
+                        <div class="form-item phone-number"> 
+                            <input type="text" autocomplete="off" placeholder="短信验证码" class="text" id="J_login_mobile_code" name="J_login_mobile_code"> <input name="J_login_send_button" type="button" value="发送验证码" class="btn" id="J_login_send_button"> 
+                            <span class="captcha-loading" id="J_login_send_wait" style="display: none">100秒后重新获取</span> 
+                        </div> 
+                            <!-- //add by hanjw 2014-6-24 --> 
+                            <input type="button" value="登 录" class="login-layer-btn" id="J_loginBtn_mobile"> 
+                            <span style="display:none;" class="submit-loading" id="J_loginingBtn_mobie">正在登录...</span> 
+                        </div> 
+                        <div class="collaborate clearfix"> 
+                            <div class="xian"></div> 
+                            <p>合作账号登录</p> 
+                            <div class="xian"></div> 
+                        </div> 
+                        <div class="login-foot clearfix"> 
+                            <a target="_blank" class="weixin" href="http://service.zol.com.cn/user/api/weixin/jump.php?backurl=http%3A%2F%2Fwww.zol.com%2F">用微博账号登录</a> 
+                            <a target="_blank" class="sina" href="http://service.zol.com.cn/user/api/sina/jump.php?comeshop=1&amp;backurl=http%3A%2F%2Fwww.zol.com%2F">用微博账号登录</a> 
+                            <a target="_blank" class="qq" href="http://service.zol.com.cn/user/api/qq/libs/oauth/redirect_to_login.php?comeshop=1&amp;backurl=http%3A%2F%2Fwww.zol.com%2F">用QQ账号登录</a> 
+                            <a target="_blank" class="alipay" href="http://tuan.zol.com/userBinding/alipay/alipay.auth.authorize_php_gb/alipay_auth_authorize.php?fromUrl=http%3A%2F%2Fwww.zol.com%2F">用支付宝账号登录</a> 
+                            <a target="_blank" class="baidu" href="http://service.zol.com.cn/user/api/baidu/jump.php?comeshop=1&amp;backurl=http%3A%2F%2Fwww.zol.com%2F">用百度账号</a> 
+                        </div>
+                    </div> 
+                </div>
+            </div>   
+        </form>
+    
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="wrapper clearfix">
+            <div class="about"><a href="http://www.rongroad.com/" target="_blank">
+                关于Z商城</a>|<a href="http://www.rongroad.com/" target="_blank">联系我们</a>|<a href="http://help.zol.com/" target="_blank">帮助中心</a>
+            </div>
+            <div class="copyright">&#169;<script type="text/javascript">var yearStr;
+                now = new Date();
+                yearStr = now.getFullYear();
+                document.write(yearStr);</script>2018. 中关村在线 版权所有
+            </div>
+        </div>
+    </div>
+        <div class="layer" style="display:none;" id="chgpwd_changePwdWindowDiv">
+            <div class="layer-hd">
+                <h5 class="tl">提示</h5>
+                <span class="close">×</span>
+            </div>
+            <div class="layer-con">
+                <p class="explain">应国家相关法律要求，自2017年6月1日起使用信息发布、即时通讯等互联网服务需进行身份信息验证。为保障相关服务功能正常使用，建议您尽快完成手机号验证，感谢您的理解和支持！</p>
+                <div class="layer-opertion">
+                    <span class="cancel">取消</span>
+                    <span class="confirm" id="validate">去验证</span>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

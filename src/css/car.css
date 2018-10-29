@@ -1,0 +1,145 @@
+/*公共样式顶部*/
+#zc-topbar a:hover{
+    color:red;
+}
+#zc-topbar{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+.wrapper{ width:1200px;
+    height:36px;
+    line-height: 36px;
+    margin:0 auto;
+}
+.zc-login-info{
+    float:left;
+}
+.zc-login-info span{
+    margin-right:10px;
+}
+.zc-quick-menu{
+    height:36px;
+    padding-left:270px;
+    display:flex;
+    justify-content: space-around;
+}
+#zc-my-center-bd{
+    display:none;
+}
+#zc-my-center-bd a{
+    display:block;
+}
+.zc-my-center:hover{
+    border:1px solid #ccc;
+    border-bottom:none;
+    background: #fff;
+    z-index: 999;
+}
+.zc-my-center:hover #zc-my-center-bd{
+   display:block;
+   border:1px solid #ccc;
+   border-top:none;
+   background: #fff;
+   z-index: 999;
+}
+.zc-mobile .zc-mobile-bd{
+    display:none;
+}
+.zc-mobile:hover #zc-mobile-bd{
+    display:block;
+    background: #fff;
+}
+.zc-service-tel{
+    display:none;
+}
+.lianxikefu:hover .zc-service-tel{
+    display:block;
+    border:1px solid #ccc;
+    border-top:none;
+    background: #fff;
+     z-index: 10;
+}
+/*logo行*/
+.car-header {
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 960px;
+}
+body{
+    font: 12px/1.5 Arial;
+    color: #333;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+.car-header .flow-step{
+    position:absolute;
+    top:70px;
+    right:100px;
+}
+.car-header .flow-step li{
+    float:right;
+    width: 80px;
+    height: 50px;
+    margin-right:20px;
+    background: #ccc;
+    font-size:16px;
+    line-height: 50px;
+    text-align:center;
+    border:1px solid #ccc;
+}
+.car-header .flow-step li:hover{
+    background: #f60;
+    cursor:pointer;
+}
+
+
+.cart-state{ text-align:right;}
+.cart-state p{ padding:7px 0 10px 0;}
+.cart-state p em{ padding:0 0 0 10px; color:#666;}
+.cart-state .total{ height:22px; line-height:22px; color:#666;}
+.cart-state .total span{ float:right; padding:0 8px 0 0; line-height:24px; color:#999;}
+.cart-state .total em{ padding:0 2px 0 0; color:#ff0000; font-weight:bold; font-family:verdana; }
+.cart-state input{ float:right; width:58px; height:22px; background-position:-192px -150px; border:0 none; color:#fff; line-height:22px; text-align:center; font-weight:bold; cursor:pointer;}
+
+.order-table table{ border-collapse:collapse; border-spacing: 0;
+         table-layout:fixed;}
+.order-table .other td{ background:#fcfcfc;}
+.order-table th{ height:36px; background:#f5f5f5; border-top:2px solid #e02d2d; line-height:36px; font-weight:normal; text-align:center;}
+.order-table .th-1{ width:62px;}
+.order-table .th-2{ width:217px; padding:0 0 0 100px; text-align:left;}
+.order-table .th-3{ width:122px;}
+.order-table .th-4{ width:106px;}
+.order-table .th-5{ width:121px;}
+.order-table .th-6{ width:107px;}
+.order-table .th-7{ width:81px;}
+.order-table .th-1 input{ margin:0 5px 0 0; *margin:0 3px 0 0; _position:relative; _top:-2px;}
+
+.order-table .store-infor{ height:43px; padding:10px 0 0 0; border:0 none; background:#fff;}
+
+.total-price{ padding:0 10px 0 0; height:52px; line-height:52px; text-align:right;}
+.total-price span{ color:#666;}
+.total-price em{ color:#ff0000; font-size:16px; font-weight:bold; font-family:verdana}
+
+.order-foot{ position:relative; padding:0 0 0 12px; height:33px; border:1px solid #e3e3e3; background:##f5f5f5; line-height:33px;}
+.order-foot a{ float:left; margin:0 30px 0 0;}
+.order-foot label{ float:left; padding:0 25px 0 0 ;_padding:7px 25px 0 0;}
+.order-foot label input{ margin:0 5px 0 0; *margin:0 3px 0 0; _position:relative; _top:-2px;}
+.order-foot .accounting-btn{ position:absolute; top:-1px; right:-1px; width:130px; height:35px; font:18px/35px "Microsoft YaHei"; color:#fff; border:0 none; background-position:0 -113px; cursor:pointer;}
+.order-foot .go-shopping{ float:none; position:absolute; top:0; right:150px; margin:0; font-family:"simsun";}
+.buy-num input{width: 40px;}
+.s-price,.buy-num,.s-agio,.s-total,.s-del{text-align:center;}
+
+/*carfooter*/
+.footer{ margin:40px auto 0; padding:5px 0 20px; width:960px; text-align:center; border-top:1px solid #e3e3e3;margin:0 auto;margin-top:400px;}
+.footer .links { padding:14px 0 6px; color:#ccc; }
+.footer .links a { margin:0 10px; }
+.footer .copyright { display:inline-block; height:23px; padding-left:28px; position:relative; line-height:23px; }
+.footer .copyright i { width:23px; height:23px; position:absolute; top:0; left:0; background-position:0 0; }
+.footer p .copyright { color:#333; }
