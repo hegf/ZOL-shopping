@@ -23,8 +23,8 @@ jQuery(function($){
 
 
         // 放大镜
-        $('.goods').lxzoom({width:500,height:500}).addClass('box');
-
+        $('.goods').lxzoom({width:600,height:500}).addClass('box');
+        
         // 页面css
         $('.goodsxq p').css({'font-size':'18px','padding-left':'10px','line-height':'32px'});
         $('.goodsxq .btn .addbtn,.buy').css({'display':'inline-block','width':'100px','height':'50px','background':'#c00','margin-top':'200px','margin-right':'50px','border-radius':'5px','text-align':'center','line-height':'50px','color':'#fff'})
